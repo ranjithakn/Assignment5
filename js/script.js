@@ -4,10 +4,20 @@ let empid, empName, Ext, email, Dept,output;
 //Helper function to return dom elements
  function getName() {
      empid = document.getElementById('id').value;
-     document.write(empid);
      empName = document.getElementById('name').value;
-     document.write(empName);
-
+     Ext = document.getElementById('ext').value;
+     email = document.getElementById('mail').value;
+     Dept = document.getElementById('did').value;
+     document.write("ID:" +empid);
+     document.write("<br\>");
+     document.write("EMP NAME:"+empName);
+     document.write("<br\>");
+     document.write("EXTENSION:"+Ext);
+     document.write("<br\>");
+     document.write("EMAIL:"+email);
+     document.write("<br\>");
+     document.write("DEPARTMENT:"+Dept);
+     document.write("<br\>");
 }
 /*
 const $ = (id) => document.getElementById(id)
